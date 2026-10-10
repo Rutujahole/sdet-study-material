@@ -1,0 +1,22 @@
+public class FirstClassReverseString
+{
+    public static void main (String[] args)
+    {
+        int k=1;
+
+        for (int i = 0; i <=4; i--)
+        {
+            System.out.print("outer loop started");
+            for(int j = 1; j<=4-i; j++)
+            {
+                System.out.print("Inner loop");
+                System.out.print("\t");
+                k++;
+
+            }
+            System.out.print("\n");
+            System.out.print("outer loop Finished");
+
+        }
+    }
+}
