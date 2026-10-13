@@ -10,17 +10,15 @@ public class OddNumberPyramid
             for(int j = 1; j<=i; j++)
             {
 //                System.out.print("Inner loop");
-                if (k%3==0)
-                {
-                    System.out.print(k);
-                }
-                System.out.print("\t");
-                k++;
 
+                    System.out.print(k*3);
+                    System.out.print("\t");
+                    k++;
             }
             System.out.print("\n");
 //            System.out.print("outer loop Finished");
 
         }
+
     }
 }
